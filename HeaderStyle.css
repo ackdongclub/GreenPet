@@ -1,0 +1,10 @@
+.RMenu {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+#menuLogo{
+    width: 40px;
+    height: 40px;
+    background-color: #78bd86;
+}
