@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/ContentsStyle.css">
-    <link rel="stylesheet" href="css/HeaderStyle.css">
+    <link rel="stylesheet" href="css/ContentsStyle.css" />
+    <link rel="stylesheet" href="css/HeaderStyle.css" />
+    
     <title>Main</title>
 </head>
 <body>
@@ -11,13 +12,34 @@
         <!-- header start -->
         <div id="header">
             <div class="RMenu">
-                <span id="menuLogo"></span>
-                <span id="title"><a href="#">myGreen Pet</a></span>
+                <span class="menuLogo" onclick="click_menu()"></span>
+                <span class="title"><a href="#">myGreen Pet</a></span>
             </div>
             <div class="LMenu">
                 <span><a href="#">Login</a></span>
                 <span>/</span>
                 <span><a href="#">JoinIn</a></span>
+            </div>
+        </div>
+        <div id="menu_box" style="display: none;">
+            <div class="menu_row">
+                <a class="menu_title" href="#">Communication</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">My Chat</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">My Room</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">GreenPet Ranking</a>
+            </div>
+            <div class="menu_row">
+                <div class="menu_title" id="QandA_title" onclick="click_QandA()">Q&A</div>
+                <div id="show_menu" style="display: none;">
+                    <div class="smenu_title">- ALL Q&A</div>
+                    <div class="smenu_title">- My Q&A</div>
+                </div>
             </div>
         </div>
         <!-- header end -->
@@ -133,5 +155,6 @@
         </div>
         <!-- contents end -->
     </div>
+    <script type="text/javascript" src="js/menu.js"></script>
 </body>
 </html>
