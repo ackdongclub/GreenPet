@@ -18,7 +18,13 @@
 }
 
 .cTitle {
-    font-size: 17px;
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.more {
+    font-size: 0.9vw;
+    font-weight: 600;
 }
 
 /* ranking */
@@ -61,11 +67,12 @@
 /* second contents box */
 #contents2_wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contents2_in {
-    padding: 10px 20px;
+    padding: 5px 10px;
+    /* border: 1px solid black; */
 }
 
 #line {
@@ -73,27 +80,46 @@
 }
 
 /* Q&A */
+.QandA_border {
+    border-top: 1px solid gray;
+}
+
 .QandA_box {
-    /* border: 1px solid black; */
+    /* border-bottom: 1px solid rgb(90, 89, 89); */
     display: flex;
     align-items: center;
-    border-radius: 10px;
-    box-shadow: 0px 2px 3px rgb(132, 132, 132);
-    width: 24vw;
-    height: 4vw;
-    padding: 0px 15px;
+    width: 15vw;
+    height: 2.1vw;
+    font-weight: 600;
     /* background-color: #d4d7d5; */
 }
 
 .QandA_row {
-    margin: 1vw 0vw;
+    border-top: 1px solid gray;
+    width: 27vw;
+}
+
+.QandA_row:first-child {
+    border: none;
+}
+
+.show_time {
+    text-align: right;
+    font-size: 1.3vh;
+    color: gray;
 }
 
 /* Chat */
 .chat_img {
     width: 9.9vw;
-    height: 10vw;
+    height: 9vw;
     border-radius: 10px;
+}
+
+#chat_row {
+    display: flex;
+    justify-content: space-between;
+    width: 27vw;
 }
 
 .chat_box {
@@ -102,9 +128,9 @@
     justify-content: space-between;
     border: 1.5px solid black;
     border-radius: 10px;
-    padding: 10px;
-    height: 20vw;
-    width: 10.5vw;
+    padding: 7px 5px;
+    height: 19vw;
+    width: 10vw;
 }
 
 .chatTop_box {
@@ -122,15 +148,17 @@
 
 .chat_title {
     margin: 1vw 0vw;
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 500;
 }
 
 .chat_info {
     font-weight: 340;
+    font-size: 1vw;
 }
 
 .mHashTag {
     color: rgb(87, 157, 255);
     text-decoration: underline;
+    font-size: 0.9vw;
 }
