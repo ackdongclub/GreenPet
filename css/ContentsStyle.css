@@ -11,31 +11,37 @@
 }
 
 /* titles */
-#contents_title {
+.contents_title {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 
 .cTitle {
-    margin-bottom: 5px;
     font-size: 17px;
 }
 
 /* ranking */
 #contents_ranking {
     display: flex;
+    border-top: 1px solid black;
     justify-content: space-around;
-    padding: 0px 30px;
+    padding: 30px 30px;
     /* border: 1px solid black; */
     height: 100%;
-    margin: 25px 0px;
+    margin: 5px 0px;
 }
 
 #plant_img {
     width: 13vw;
     height: 19vw;
     border-radius: 10px;
+}
+
+#contents2_wrap {
+    display: flex;
+    border-top: 1px solid black;
+    padding-top: 40px;
 }
 
 .ranking_block {
@@ -49,4 +55,82 @@
     background-color: rgb(238, 237, 237);
     width: 13.3vw;
     height: 22vw;
+}
+
+
+/* second contents box */
+#contents2_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents2_in {
+    padding: 10px 20px;
+}
+
+#line {
+    border-left: 1px solid black;
+}
+
+/* Q&A */
+.QandA_box {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px rgb(132, 132, 132);
+    width: 24vw;
+    height: 4vw;
+    padding: 0px 15px;
+    /* background-color: #d4d7d5; */
+}
+
+.QandA_row {
+    margin: 1vw 0vw;
+}
+
+/* Chat */
+.chat_img {
+    width: 9.9vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+
+.chat_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 20vw;
+    width: 10.5vw;
+}
+
+.chatTop_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.chat_row {
+    display: flex;
+    justify-content: space-around;
+    width: 25.8vw;;
+}
+
+.chat_title {
+    margin: 1vw 0vw;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.chat_info {
+    font-weight: 340;
+}
+
+.mHashTag {
+    color: rgb(87, 157, 255);
+    text-decoration: underline;
 }
