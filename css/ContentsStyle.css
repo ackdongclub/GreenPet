@@ -63,6 +63,11 @@
     height: 22vw;
 }
 
+.name {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
 
 /* second contents box */
 #contents2_wrap {
@@ -71,7 +76,7 @@
 }
 
 .contents2_in {
-    padding: 5px 10px;
+    padding: 0px 10px;
     /* border: 1px solid black; */
 }
 
@@ -91,6 +96,8 @@
     width: 15vw;
     height: 2.1vw;
     font-weight: 600;
+    font-size: 0.9vw;
+    margin-top: 5px;
     /* background-color: #d4d7d5; */
 }
 
@@ -105,7 +112,7 @@
 
 .show_time {
     text-align: right;
-    font-size: 1.3vh;
+    font-size: 0.8vw;
     color: gray;
 }
 
