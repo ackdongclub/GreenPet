@@ -9,7 +9,7 @@
     flex-direction: column;
     border: 2px solid rgba(173, 172, 172, 0.318);
     width: 40%;
-    height: 88vh;
+    height: 54vw;
     padding: 25px 38px;
 }
 
@@ -19,17 +19,17 @@
 }
 
 #join_title {
-    font-size: 6.5vh;
+    font-size: 4.5vw;
     font-weight: lighter;
     color: #7ba68780;
-    margin-bottom: 10vh;
+    margin-bottom: 7vw;
 }
 
 .info_input{
     display: flex;
     align-items: center;
     justify-content: right;
-    font-size: 2.2vh;
+    font-size: 1.4vw;
     font-weight: lighter;
     margin-bottom: 2vh;
 }
@@ -40,7 +40,7 @@
 
 .inputBox {
     background-color: rgba(226, 226, 226, 0.698);
-    width: 25vh;
+    width: 16vw;
     height: 30px;
     border: none;
     margin-top: 10px;
@@ -55,25 +55,26 @@
 /* toast ui Date Picker */
 .tui-datepicker-input {
     margin-top: 5px;
-    width: 25.3vh;
+    width: 16.3vw;
     border: none;
     height: 35px;
 }
 
 #datepicker-input{
-    font-size: 1.4vh;
+    font-size: 1vw;
     background-color: rgba(226, 226, 226, 0.698);
 }
 
 #join_btn {
     border: none;
     margin-top: 40px;
-    width: 13vh;
+    width: 10vw;
     height: 47px;
-    font-size: 1.8vh;
+    font-size: 1.2vw;
     border-radius: 22px;
     background-color: #50875b6b;
-    color: white
+    color: white;
+    cursor: pointer;
 }
 
 /* .btn_area {
