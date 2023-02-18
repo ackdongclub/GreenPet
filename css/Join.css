@@ -19,19 +19,19 @@
 }
 
 #join_title {
-    font-size: 3.9em;
+    font-size: 6.5vh;
     font-weight: lighter;
     color: #7ba68780;
-    margin-bottom: 12vh;
+    margin-bottom: 10vh;
 }
 
 .info_input{
     display: flex;
     align-items: center;
     justify-content: right;
-    font-size: 1.3em;
+    font-size: 2.2vh;
     font-weight: lighter;
-    margin-bottom: 1.5vh;
+    margin-bottom: 2vh;
 }
 
 .info_box {
@@ -46,34 +46,37 @@
     margin-top: 10px;
 }
 
-#login_btn {
-    border: none;
-    margin-top: 20px;
-    width: 11vh;
-    height: 31px;
-    font-size: 0.85em;
-    border-radius: 15px;
-    background-color: #50875b6b;
-    color: white
-}
-
 #bottom {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.bottom_btn {
-    margin-right: 10px;
-    border-bottom: 1px solid black;
-}
-
-.tui-datepicker-input {
-    margin-right: 7.3vh;
-}
-
 /* toast ui Date Picker */
-#datepicker-input{
-    width: 20vh;
-    border: 1px solid black;
+.tui-datepicker-input {
+    margin-top: 5px;
+    width: 25.3vh;
+    border: none;
+    height: 35px;
 }
+
+#datepicker-input{
+    font-size: 1.4vh;
+    background-color: rgba(226, 226, 226, 0.698);
+}
+
+#join_btn {
+    border: none;
+    margin-top: 40px;
+    width: 13vh;
+    height: 47px;
+    font-size: 1.8vh;
+    border-radius: 22px;
+    background-color: #50875b6b;
+    color: white
+}
+
+/* .btn_area {
+    display: flex;
+    justify-content: center;
+} */
