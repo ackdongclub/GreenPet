@@ -1,0 +1,24 @@
+#contents_box {
+    display: flex;
+    justify-content: center;
+}
+
+#login_box {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(173, 172, 172, 0.318);
+    width: 40%;
+    height: 88vh;
+    padding: 25px 38px;
+}
+
+#login_title {
+    font-size: 3.5em;
+    font-weight: lighter;
+    color: #7ba68780;
+}
+
+#login_input {
+    display: flex;
+    justify-content: center;
+}
