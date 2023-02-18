@@ -4,7 +4,7 @@
     
 }
 
-#login_box {
+#join_box {
     display: flex;
     flex-direction: column;
     border: 2px solid rgba(173, 172, 172, 0.318);
@@ -13,12 +13,12 @@
     padding: 25px 38px;
 }
 
-#login_input {
+#join_input {
     display: grid; /* grid 쩐다... 따봉 */
     justify-content: center;
 }
 
-#login_title {
+#join_title {
     font-size: 3.9em;
     font-weight: lighter;
     color: #7ba68780;
@@ -28,11 +28,15 @@
 .info_input{
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: right;
     font-size: 1.3em;
     font-weight: lighter;
     margin-bottom: 1.5vh;
 }
+
+.info_box {
+    margin-right: 20px;
+} 
 
 .inputBox {
     background-color: rgba(226, 226, 226, 0.698);
@@ -62,4 +66,14 @@
 .bottom_btn {
     margin-right: 10px;
     border-bottom: 1px solid black;
+}
+
+.tui-datepicker-input {
+    margin-right: 7.3vh;
+}
+
+/* toast ui Date Picker */
+#datepicker-input{
+    width: 20vh;
+    border: 1px solid black;
 }

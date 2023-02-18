@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.js"></script>
+    <link rel="stylesheet" href="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.css" />
+    <link rel="stylesheet" href="/css/Join.css" />
+    <link rel="stylesheet" href="/css/HeaderStyle.css" />
+    <title>Join Us</title>
+</head>
+<body>
+    <div id="wrap">
+        <!-- header start -->
+         <!-- header start -->
+         <div id="header">
+            <div class="RMenu">
+                <span class="menuLogo" onclick="click_menu()"></span>
+                <span class="title"><a href="#">myGreen Pet</a></span>
+            </div>
+            <div class="LMenu">
+                <span><a href="#">Login</a></span>
+            </div>
+        </div>
+        <div id="menu_box" style="display: none;">
+            <div class="menu_row">
+                <a class="menu_title" href="#">Communication</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">My Chat</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">My Room</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">GreenPet Ranking</a>
+            </div>
+            <div class="menu_row">
+                <div class="menu_title" id="QandA_title" onclick="click_QandA()">Q&A</div>
+                <div id="show_menu" style="display: none;">
+                    <div class="smenu_title">- ALL Q&A</div>
+                    <div class="smenu_title">- My Q&A</div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+        <div id="contents_box">
+            <div id="join_box">
+                <div id="join_title"> Join Us</div>
+                <div id="join_input">
+                    <!-- ID input start -->
+                    <div class="info_input">
+                        <span class="info_box">ID</span>
+                        <span class="info_box">
+                            <input type="text" class="inputBox"/>
+                        </span>
+                    </div>
+                    <!-- ID input end -->
+                    <!-- Password1 input start -->
+                    <div class="info_input">
+                        <span class="info_box">PassWord 1</span>
+                        <span class="info_box">
+                            <input type="text" class="inputBox"/>
+                        </span>
+                    </div>
+                    <!-- Password1 input end -->
+                    <!-- Password2 input start -->
+                    <div class="info_input">
+                        <span class="info_box">PassWord 2</span>
+                        <span class="info_box">
+                            <input type="text" class="inputBox"/>
+                        </span>
+                    </div>
+                    <!-- Password2 input end -->
+                    <!-- Nick Name input start -->
+                    <div class="info_input">
+                        <span class="info_box">Nick Name</span>
+                        <span class="info_box">
+                            <input type="text" class="inputBox"/>
+                        </span>
+                    </div>
+                    <!-- Nick Name input end -->
+                    <!-- Birth input start -->
+                    <div class="info_input">
+                        <span class="info_box">Birth</span>
+                        <span class="info_box">
+                            <div class="tui-datepicker-input tui-datetime-input tui-has-focus">
+                                <input type="text" id="datepicker-input" aria-label="Date-Time">
+                                <span class="tui-ico-date"></span>
+                            </div>
+                            <div id="wrapper" style="margin-top: -1px;"></div>
+                        </span>
+                    </div>
+                    <!-- Birth input end -->
+                    <!-- Phone input start -->
+                    <div class="info_input">
+                        <span class="info_box">Phone</span>
+                        <span class="info_box">
+                            <input type="text" class="inputBox"/>
+                        </span>
+                    </div>
+                    <!-- Phone input end -->
+                    <div class="info_input">
+                        <input type="button" id="login_btn" value="Join Us" />
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/menu.js"></script>
+    <script src="/js//Join_date.js"></script>
+</body>
+</html>

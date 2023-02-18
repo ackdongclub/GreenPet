@@ -8,13 +8,36 @@
 </head>
 <body>
     <div id="wrap">
-        <!-- header start -->
-        <div id="header">
+         <!-- header start -->
+         <div id="header">
             <div class="RMenu">
                 <span class="menuLogo" onclick="click_menu()"></span>
                 <span class="title"><a href="#">myGreen Pet</a></span>
             </div>
         </div>
+        <div id="menu_box" style="display: none;">
+            <div class="menu_row">
+                <a class="menu_title" href="#">Communication</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">My Chat</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">My Room</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">GreenPet Ranking</a>
+            </div>
+            <div class="menu_row">
+                <div class="menu_title" id="QandA_title" onclick="click_QandA()">Q&A</div>
+                <div id="show_menu" style="display: none;">
+                    <div class="smenu_title">- ALL Q&A</div>
+                    <div class="smenu_title">- My Q&A</div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+
         <div id="contents_box">
             <div id="login_box">
                 <div id="login_title"> Login</div>
@@ -32,7 +55,7 @@
                         </span>
                     </div>
                     <div class="info_input">
-                        <button id="login_btn">Login</button>
+                        <input type="button" id="login_btn" value="Login" />
                     </div>
                     <div id="bottom">
                         <span class="bottom_btn">
