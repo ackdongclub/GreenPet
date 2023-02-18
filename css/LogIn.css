@@ -1,6 +1,7 @@
 #contents_box {
     display: flex;
     justify-content: center;
+    
 }
 
 #login_box {
@@ -12,13 +13,54 @@
     padding: 25px 38px;
 }
 
-#login_title {
-    font-size: 3.5em;
-    font-weight: lighter;
-    color: #7ba68780;
+#login_input {
+    display: grid; /* grid 쩐다... 따봉 */
+    justify-content: center;
+    flex-direction: column;
 }
 
-#login_input {
+#login_title {
+    font-size: 3.9em;
+    font-weight: lighter;
+    color: #7ba68780;
+    margin-bottom: 12vh;
+}
+
+.info_input{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin-bottom: 1.5vh;
+}
+
+.inputBox {
+    background-color: rgba(226, 226, 226, 0.698);
+    width: 25vh;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+#login_btn {
+    border: none;
+    margin-top: 20px;
+    width: 11vh;
+    height: 31px;
+    font-size: 0.85em;
+    border-radius: 15px;
+    background-color: #50875b6b;
+    color: white
+}
+
+#bottom {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+}
+
+.bottom_btn {
+    margin-right: 10px;
+    border-bottom: 1px solid black;
 }
