@@ -31,7 +31,7 @@
     justify-content: right;
     font-size: 1.4vw;
     font-weight: lighter;
-    margin-bottom: 2vh;
+    margin-bottom: 1vw;
 }
 
 .info_box {
@@ -41,15 +41,9 @@
 .inputBox {
     background-color: rgba(226, 226, 226, 0.698);
     width: 16vw;
-    height: 30px;
+    height: 2.2vw;
     border: none;
-    margin-top: 10px;
-}
-
-#bottom {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    margin-top: 0.9vw;
 }
 
 /* toast ui Date Picker */
@@ -57,7 +51,7 @@
     margin-top: 5px;
     width: 16.3vw;
     border: none;
-    height: 35px;
+    height: 2.2vw;
 }
 
 #datepicker-input{
@@ -67,9 +61,9 @@
 
 #join_btn {
     border: none;
-    margin-top: 40px;
+    margin-top: 2.6vw;
     width: 10vw;
-    height: 47px;
+    height: 3vw;
     font-size: 1.2vw;
     border-radius: 22px;
     background-color: #50875b6b;
