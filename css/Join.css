@@ -75,7 +75,7 @@
     font-size: 1.1vw;
     display: grid;
     flex-direction: column;
-    color:rgba(59, 86, 66, 0.405)
+    color:rgba(59, 86, 66, 0.405);
 }
 
 .agree {
@@ -88,14 +88,3 @@
     margin-right: 1.5vw;    
 }
 
-/* .chkBox {
-    -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #fff;
-  border-radius: 4px;
-  cursor: pointer;
-  height: 16px;
-  outline: 0;
-  width: 16px;
-} */

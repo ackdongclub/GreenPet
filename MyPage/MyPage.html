@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/ContentsStyle.css" />
+    <link rel="stylesheet" href="../css/HeaderStyle.css" />
+    <link rel="stylesheet" href="../css/MyPage.css" />
+    <title>Main</title>
+</head>
+<body>
+    <div id="wrap">
+        <!-- header start -->
+        <div id="header">
+            <div class="RMenu">
+                <span class="menuLogo" onclick="click_menu()"></span>
+                <span class="title"><a href="#">myGreen Pet</a></span>
+            </div>
+            <div class="LMenu">
+                <span>
+                    <a href="#"><img id="profile_photo" src="../img/plant.jpeg" /></a>
+                </span>
+            </div>
+        </div>
+        <div id="menu_box" style="display: none;">
+            <div class="menu_row">
+                <a class="menu_title" href="#">Communication</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">My Chat</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">My Room</a>
+            </div>
+            <div class="menu_row">
+                <a class="menu_title" href="#">GreenPet Ranking</a>
+            </div>
+            <div class="menu_row">
+                <div class="menu_title" id="QandA_title" onclick="click_QandA()">Q&A</div>
+                <div id="show_menu" style="display: none;">
+                    <div class="smenu_title">- ALL Q&A</div>
+                    <div class="smenu_title">- My Q&A</div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+        <!-- contents start -->
+        <div id="contents">
+            <div id="contents_box">
+                <!-- contents title start-->
+                <div class="contents_title">
+                    <span class="cTitle">올해의 멋쟁이 식물</span>
+                    <span class="cTitle more"><a href="#">더보기+</a></span>
+                </div>
+                <!-- contents title end-->
+                <!-- Green Pet Ranking start -->
+                <div id="contents_ranking">
+                    <!-- for문 들어갈 곳 start -->
+                    <span class="ranking_block">
+                        <div><img id="plant_img" src="../img/plant.jpeg" /></div>
+                        <div class="name"> 돌돌이 </div>
+                    </span>
+                    <span class="ranking_block">
+                        <div><img id="plant_img" src="../img/plant.jpeg" /></div>
+                        <div class="name"> 돌돌이 </div>
+                    </span>
+                    <span class="ranking_block">
+                        <div><img id="plant_img" src="../img/plant.jpeg" /></div>
+                        <div class="name"> 돌돌이 </div>
+                    </span>
+                    <span class="ranking_block">
+                        <div><img id="plant_img" src="../img/plant.jpeg" /></div>
+                        <div class="name"> 돌돌이 </div>
+                    </span>
+                </div>
+                <!-- Green Pet Ranking end -->
+                <div id="contents2_wrap">
+                    <!-- Q&A part start -->
+                    <span class="contents2_row">
+                        <div class="contents_title">
+                            <span class="cTitle">Q&A</span>
+                            <span class="cTitle more"><a href="#">더보기+</a></span>
+                        </div>
+                        <!-- for문 자리 -->
+                        <div class="contents2_in QandA_border">
+                            <!-- for start -->
+                            <div class="QandA_row">
+                                <a href="#">
+                                    <span class="QandA_box">우리 돌돌이가 아파요</span>
+                                    <div class="show_time">5초전</div>
+                                </a>
+                            </div>
+                            <div class="QandA_row">
+                                <a href="#">
+                                    <span class="QandA_box">우리 돌돌이가 아파요</span>
+                                    <div class="show_time">5초전</div>
+                                </a>
+                            </div>
+                            <div class="QandA_row">
+                                <a href="#">
+                                    <span class="QandA_box">우리 돌돌이가 아파요</span>
+                                    <div class="show_time">5초전</div>
+                                </a>
+                            </div>
+                            <div class="QandA_row">
+                                <a href="#">
+                                    <span class="QandA_box">우리 돌돌이가 아파요</span>
+                                    <div class="show_time">5초전</div>
+                                </a>
+                            </div>
+                            <div class="QandA_row">
+                                <a href="#">
+                                    <span class="QandA_box">우리 돌돌이가 아파요</span>
+                                    <div class="show_time">5초전</div>
+                                </a>
+                            </div>
+                            <div class="QandA_row">
+                                <a href="#">
+                                    <span class="QandA_box">우리 돌돌이가 아파요</span>
+                                    <div class="show_time">5초전</div>
+                                </a>
+                            </div>
+                            <!-- for end -->
+                        </div>
+                    </span>
+                    <!-- Q&A part end -->
+                    <div id="line"></div>
+                    <!-- Group Chat part start -->
+                    <span class="contents2_row">
+                        <div class="contents_title">
+                            <span class="cTitle">Group Chat</span>
+                            <span class="cTitle more"><a href="#">더보기+</a></span>
+                        </div>
+                        <!-- for문 자리 -->
+                        <div class="contents2_in chat_row">
+                            <!-- for start -->
+                            <div id="chat_row">
+                                <div class="chat_box">
+                                    <a href="#">
+                                        <span class="chatTop_box">
+                                            <img src="img/plant.jpeg" class="chat_img"/>
+                                            <div class="chat_title">다육이 방</div>
+                                            <div class="chat_info">다육이에 대해 진지한 이야기 나누고픈 사람들...</div>
+                                        </span>
+                                    </a>
+                                    <div class="hashTage">
+                                        <a href ="#" class="mHashTag">#다육이</a>
+                                        <a href ="#" class="mHashTag">#다육사랑</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="chat_box">
+                                    <a href="#">
+                                        <span class="chatTop_box">
+                                            <img src="img/plant.jpeg" class="chat_img"/>
+                                            <div class="chat_title">다육이 방</div>
+                                            <div class="chat_info">다육이에 대해 진지한 이야기 나누고픈 사람들...</div>
+                                        </span>
+                                    </a>
+                                    <div class="hashTage">
+                                        <a href ="#" class="mHashTag">#다육이</a>
+                                        <a href ="#" class="mHashTag">#다육사랑</a>
+                                    </div>
+                                </div>
+                                <!-- for end -->
+                            </div>
+                        </div>
+                    </span>
+                    <!-- Group Chat part end -->
+
+                </div>
+                
+            </div>
+        </div>
+        <!-- contents end -->
+    </div>
+    <script type="text/javascript" src="../js/menu.js"></script>
+</body>
+</html>
