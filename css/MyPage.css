@@ -1,0 +1,17 @@
+#profile_photo {
+    width: 4.5vw;
+    border-radius: 100%;
+}
+
+#profile_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+#nickName {
+    display: flex;
+    margin: 0px 10px;
+    border-bottom: 2px solid black;
+}
