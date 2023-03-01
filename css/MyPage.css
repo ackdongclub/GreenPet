@@ -76,3 +76,9 @@
     -webkit-box-orient: vertical;
     margin-bottom: 10px;
 }
+
+.hash_tag {
+    color: rgb(87, 157, 255);
+    text-decoration: underline;
+    font-size: 0.9vw;
+}
