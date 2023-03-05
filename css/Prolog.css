@@ -26,12 +26,13 @@ body {
 
 .nav_btn {
     border: none;
-    width: 6vw;
+    width: 7vw;
     height: 3vw;
     background-color: white;
     font-family: 'Press Start 2P';
     text-decoration: underline;
     cursor: pointer;
+    font-size: 0.8vw;
 }
 
 #go_to_main {
@@ -48,20 +49,18 @@ body {
 }
 
 .opening {
+    height: 9vw;
     text-align: center;
     font-size: 4vw;
     font-family: 'Press Start 2P', serif;
     margin-top: 30px;
 }
 
-#go_to_mainBtn {
-
-}
-
 #go_to_mainBtn img {
-    margin-top: 3vw;
-    width: 15vw;
-    height: 6vw;
+    margin-top: 5vw;
+    width: 14vw;
+    height: 5vw;
+    position: relative;
 }
 
 #go_to_mainBtn img:hover {
