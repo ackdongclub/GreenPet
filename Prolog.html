@@ -3,26 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/Prolog.css" />
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Mynerve">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P">
     <title>Green Pet's Door</title>
 </head>
 <body>
     <div id="wrap">
-        <div id="nav">
-            <span>로그인</span>
-            <span> / </span>
-            <span>회원가입</span>
-        </div>     
-        <div id="bottom_backGround">
+        <div id="contents">
+            <div id="nav">
+                <span>
+                    <input type="button" value="Login" class="nav_btn" id="Login" onmouseover="onLogin1()" onmouseout="onLogin2()"/>
+                </span>
+                <span> / </span>
+                <span>
+                    <input type="button" value="Join Us" class="nav_btn" id="join" onmouseover="onJoin1()" onmouseout="onJoin2()"/>
+                </span>
+            </div>     
             <div id="go_to_main">
-                <span class="opening">Welcome</span>
-                <span class="opening"> Green Pet</span>
+                <span class="opening" id="opening_ment">Welcome Green Pet</span>
                 <span class="opening">
-                    <input type="button" id="go_to_mainBtn" value="click here"/>
+                    <a id="go_to_mainBtn" href="#">
+                        <img src="/img/px_startBtn.png" id="start_btn"/>
+                    </a>
                 </span>
             </div>
-        </div>   
+            <div id="bottom_img">
+                <img src="/img/px_flower.png" />
+                <img src="/img/px_flower.png" />
+            </div>
+        </div>
     </div>
+    <script src="js/Prolog.js"></script>
 </body>
 </html>
