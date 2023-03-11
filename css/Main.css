@@ -14,6 +14,11 @@ body {
     font-size: 1.8vw;
 }
 
+#rank_contents {
+    display: flex;
+    align-items: center;
+}
+
 .ranker img {
     width: 20vw;
     height: 27vw;
@@ -28,3 +33,17 @@ body {
     background: linear-gradient( to bottom, blue, rgb(207, 207, 255), blue );
     box-shadow: 0px 3px 7px rgb(82, 82, 82);
 }
+
+.ranker_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.4vw;
+}
+
+.user_info {
+    color: blue;
+    margin: 1vw 5vw;
+}
+
