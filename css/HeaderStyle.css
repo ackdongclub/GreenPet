@@ -1,3 +1,21 @@
-#web_box {
+#nav {
+    display: flex;
+    width: 98%;
+    height: 4vw;
+    justify-content: right;
+    align-items: center;
+    opacity: 70%;
+    font-family: 'Press Start 2P';
+    /* border: 1px solid black; */
+}
 
+.nav_btn {
+    border: none;
+    width: 6vw;
+    height: 3vw;
+    background-color: white;
+    font-family: 'Press Start 2P';
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.7vw;
 }
