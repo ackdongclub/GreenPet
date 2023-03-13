@@ -47,6 +47,11 @@ body {
     margin-right: 10vw;
 }
 
+.next_ranker img {
+    width: 7vw;
+    height: 8vw;
+}
+
 .user_info {
     color: blue;
     margin: 1.8vw 0vw;
