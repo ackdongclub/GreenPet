@@ -47,9 +47,24 @@ body {
     margin-right: 10vw;
 }
 
+#rank_line {
+    display: flex;
+}
+
 .next_ranker img {
     width: 7vw;
     height: 8vw;
+}
+
+.next_ranker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 216, 216);
+    width: 8.2vw;
+    height: 9.2vw;
+    margin-left: 3vw;
+    /* border: 3px solid black; */
 }
 
 .user_info {
