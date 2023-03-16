@@ -3,6 +3,18 @@ body {
     margin: 0px;
 }
 
+#nav {
+    display: flex;
+    justify-content: left;
+    margin: 100px 0px;
+    position: fixed;
+}
+
+#nav img {
+    width: 20vw;
+    height: 20vw;
+}
+
 #main_contents {
     display: flex;
     justify-content: center;
@@ -66,6 +78,7 @@ body {
     width: 8.5vw;
     height: 9.5vw;
     margin-left: 3vw;
+    cursor: pointer;
     /* border: 3px solid black; */
 }
 
