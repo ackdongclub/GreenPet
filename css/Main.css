@@ -1,26 +1,17 @@
 body {
     font-family: 'Press Start 2P';
     margin: 0px;
+    background-image: url('/img/sun.png');
+    background-repeat: no-repeat;
 }
 
-#nav {
-    display: flex;
-    justify-content: left;
-    margin: 100px 0px;
-    position: fixed;
-}
-
-#nav img {
-    width: 20vw;
-    height: 20vw;
-}
 
 #main_contents {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+}  
 
 #rank_title {
     margin-bottom: 6vw;
