@@ -13,29 +13,41 @@
                 <div id="title">GREEN PET RANKING!!</div>
                 <div id="ranking">
                     <span class="ranker_info">
-                        <div>RANK</div>
-                        <div>1st</div>
-                        <div>SCORE</div>
-                        <div>10,000,000</div>
-                        <div>NICK</div>
-                        <div>I HAVE A PLAN</div>
+                        <div>
+                            <div class="rnk_title">RANK</div>
+                            <div class="user_intro" id="rank">1st</div>
+                        </div>
+                        <div>
+                            <div class="rnk_title">SCORE</div>
+                            <div class="user_intro" id="score">10,000,000</div>
+                        </div>
+                        <div>
+                            <div class="rnk_title">NICK</div>
+                            <div class="user_intro" id="nick">GOOD PLANT</div>
+                        </div>
                     </span>
                     <span class="ranker_img">
-                        <span class="rnk1">
+                        <span class="rnk1" >
                             <img id="rank1" src="/img/1st.jpg" />
                         </span>
-                        <span class="rnk">
+                        <span class="rnk  rnk11" onclick="click_rank1()">
                             <img id="rank2" src="/img/2st.jpg" />
                         </span>
-                        <span class="rnk">
+                        <span class="rnk" onclick="click_rank2()">
                             <img id="rank3" src="/img/3st.jpg" />
                         </span>
                     </span>
+                </div>
+                <div id="user_home_btn">
+                    <div id="home_btn">
+                        <input id="house_btn" type="button" value="GOOD PLANT'S HOUSE"/>
+                    </div>
                 </div>
             </div>
             <div id="user_info">
                 <div id="info_box"></div>
             </div>
         </div>
+        <script src="/js/Home.js"></script>
     </body>
 </html>
