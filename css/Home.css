@@ -1,10 +1,37 @@
 body {
     font-family: 'Press Start 2P';
     margin: 0px;
-    background-image: url('/img/sun.png');
+    /* background-image: url('/img/sun.png'); */
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 15vw;
+    animation-name: sun_move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sun_move {
+    0% {
+        background-image: url('/img/sun.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 15vw;
+        
+    }
+
+    50% {
+        background-image: url('/img/sun.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 13.5vw;
+    }
+
+    100% {
+        background-image: url('/img/sun.png');
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 15vw;
+    }
 }
 
 #wrap {
