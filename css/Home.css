@@ -19,8 +19,8 @@ body {
     /* border: 1px solid black; */
 }
 #title {
-    font-size: 2vw;
-    margin: 3vw 0vw 5vw 0vw;
+    font-size: 1.5vw;
+    margin: 1.5vw 0vw 3vw 0vw;
 }
 
 #content {
@@ -41,7 +41,7 @@ body {
 .user_intro,
 .rnk_title {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .user_intro {
@@ -78,16 +78,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 23vw;
-    height: 29vw;
+    width: 20vw;
+    height: 26vw;
     background-color: rgb(0, 26, 255);
     margin-left: 10.2vw;
     box-shadow: 0px 5px 7px gray;
 }
 
 .rnk1 img {
-    width: 20.3vw;
-    height: 26.3vw;
+    width: 18vw;
+    height: 24vw;
 }
 
 .rnk {
@@ -122,7 +122,7 @@ body {
     background-image: url('/img/btn_format.png');
     background-repeat: no-repeat;
     background-size: 30.5vw;
-    margin: 3vw 0vw;
+    margin: 2.8vw 0vw;
     width: 31vw;
     cursor: pointer;
     /* border: 1px solid black; */
