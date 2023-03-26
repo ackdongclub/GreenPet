@@ -150,11 +150,13 @@ body {
 }
 
 #house_btn {
+    text-align: top;
     border: none;
-    margin: 3vw 0vw;
+    margin: 1.3vw 0vw;
     font-size: 1.2vw;
     font-family: 'Press Start 2P';
-    width: 26vw;
+    height: 4vw;
+    width: 24vw;
     background-color: white;
     cursor: pointer;
 }
