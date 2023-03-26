@@ -41,7 +41,55 @@ body {
 }
 
 #nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
     width: 100%;
-    height: 5vw;
+    height: 2vw;
+    padding: 2vw 3vw 2vw 0vw;
+    font-size: 1vw;
+    color: rgb(107, 106, 106);
     /* border: 1px solid black; */
 }
+
+#nav span {
+    display: flex;
+    margin-right: 0.7vw;
+    cursor: pointer;
+}
+
+#contents {
+    margin-top: 5vw;
+}
+
+#room_bg {
+    opacity: 70%;
+    /* border: 1px solid black; */
+    width: 50vw;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-size: 50vw;
+    background-position: bottom;
+    background-image: url('/img/roomBg.png');
+}
+
+#pet1 {
+    background-image: url('/img/pet1.png');
+    background-repeat: no-repeat;
+    background-size: 16vw;
+    background-position: center;
+    width: 13vw;
+    height: 11vw;
+    /* border: 1px solid black; */
+}
+
+.pet_area {
+    display: flex;
+    padding: 1vw;
+    align-items: center;
+    width: 13vw;
+    height: 40vw;
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+
