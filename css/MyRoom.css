@@ -85,12 +85,22 @@ body {
 
 .pet_area {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 1vw;
     align-items: center;
     width: 13vw;
     height: 40vw;
     /* border: 1px solid black; */
     cursor: pointer;
+}
+
+#pet1_name {
+    width: 4vw;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(55, 54, 54, 0.56);
+    color: rgb(168, 168, 168);
 }
 
 /* user */
