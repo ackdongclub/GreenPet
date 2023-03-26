@@ -93,3 +93,70 @@ body {
     cursor: pointer;
 }
 
+/* user */
+#user_info {
+    /* border: 1px solid black; */
+    z-index: 1;
+    position: sticky; 
+    width: 100%;
+}
+
+#info_box {
+    background-color: rgba(19, 18, 18, 0.606);
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    margin-top: 3vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw 0vw;
+}
+
+#user_profile {
+    display: flex;
+    background-image: url('/img/user_photo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    background-color: white;
+    border-radius: 100%;
+    width: 6vw;
+    height: 6vw;
+    /* border: 1px solid black; */
+}
+
+.user_bar {
+    color: white;
+    margin-left: 2vw;
+    font-size: 1.1vw;
+}
+
+.lvl {
+    margin-left: 3vw;
+}
+
+#user_default {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+#user_ui {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+    padding-right: 2vw;
+}
+
+#user_ui a {
+    font-size: 1.1vw;
+    color: white;
+    text-decoration: none;
+}
+
+#user_ui a:hover {
+    /* font-size: 1.3vw; */
+    text-decoration: underline;
+}
+
